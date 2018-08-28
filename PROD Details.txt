@@ -1,0 +1,99 @@
+API Details :: 
+
+PROD:
+
+LMS
+-----------------------------------------
+Server name: WP0C40
+Db Name : Remodel
+Port: 1433
+SQL user id: hs_automation
+an35W49Xk3
+-----------------------------------------
+
+SF
+-----------------------------------------
+
+User: thd_automation@homedepot.com
+Pw: thd_auto1
+URL: https://thdservices.my.salesforce.com
+
+
+API URL1: https://login.salesforce.com/services/oauth2/token?grant_type=password&client_id=3MVG98XJQQAccJQejJC1sdDwWRuXeBF46CsXTR7bzSzUU7r3pRRlnQpNVgVitxKSsEnM.atGHGL83slcPq5ac&client_secret=2974956072445863589&username=thd_automation@homedepot.com&password=thd_auto1AV71pTcn1kwWm1wuwQ45Bmm4
+	  https://login.salesforce.com/services/oauth2/token?grant_type=password&client_id=3MVG98XJQQAccJQejJC1sdDwWRuXeBF46CsXTR7bzSzUU7r3pRRlnQpNVgVitxKSsEnM.atGHGL83slcPq5ac&client_secret=2974956072445863589&username=thd_automation@homedepot.com&password=thd_auto1AV71pTcn1kwWm1wuwQ45Bmm4&Content-Type=application/json
+
+API URL2: https://thdservices.my.salesforce.com/services/data/v40.0/query?q=select+id+from+UserRole+where+Name+=+'"+role+"' 
+
+API URL3: https://thdservices.my.salesforce.com/services/data/v40.0/sobjects/User
+
+-------------------------------------------
+
+HDC
+-------------------------------------------
+
+auth: T0q7GOzHpgjMuudXHCYt8MGIYKJozcxVfCo6PQEs9UTiEDsTMKwwKqq3Cf5HHioJq0RHHoadt78LtbrXzxEuM2q4VBV4PwXhaEkohQ6w6qTYGNUBswMmT1DxJFWNFbPkaAPpiqxZ1OFbUKz8Pp6T
+URL: https://webapps.homedepot.com/VendorDataManagement/ws/user/create
+
+-------------------------------------------
+
+ROAM
+-------------------------------------------
+
+Login: https://mcm.roamdata.com/wsapi/Authentication/
+Package: https://mcm.roamdata.com/wsapi/Packages/
+Organization: https://mcm.roamdata.com/wsapi/Organizations/
+ID:hdapiAdmin
+Pswd:d3P07@^
+API Token: ECM6-dba67882-2037-4be5-8d47-f82b5c673429
+
+
+
+
+-------------------------------------------
+QA Details:
+-------------------------------------------
+LMS:
+==================
+ String host = "wn29e4.homedepot.com";
+		    String user = "hs_automation";
+		    String password = "Y5h5jy6c9hvRS7Bm";
+		    String dbName = "uatTraining";
+-------------------------------------------
+
+
+HDC:
+==================
+auth: 
+String header_key_values = "FFrwT6yNe9eWxb2UJ1WsvI4J38LgLE1vn00wJqzQ1OJQace9ujH5uOpEbDy0xpXY8vRkfWSy2b4uUj4q0ickQjRoVgryf5IGw6TtD7a5QNyWzOYEN1wwUTTFQzFQTi3";
+URL: https://webapps-qa.homedepot.com/VendorDataManagement/ws/user/create
+--------------------------------------------------------------
+SF:
+===================
+API URL1: https://test.salesforce.com/services/oauth2/token?grant_type=password&client_id=3MVG9Iu66FKeHhIOceX5tse.n36QamUdoFgLygbxg_nP11DuZzpTTLxnfgzntmdkywNo2tCsnj3451AcSmR0F&client_secret=9111308037321021858&username=ezhil_gurusamy@homedepot.com.uat&password=Marimba123$w40Y8utRSeoN5L07qWCS2ojM&Content-Type=application/json
+API URL2: https://thdservices--UAT.cs2.my.salesforce.com/services/data/v39.0/query?q=SELECT+ID+FROM+UserRole+WHERE+Name+='"+role+"'
+API URL3: https://thdservices--UAT.cs2.my.salesforce.com/services/data/v39.0/sobjects/User
+
+workbench: https://workbench.developerforce.com/login.php 
+
+--------------------------------------------------------------
+Roam:
+===================
+Login: https://hdtest4.roamdata.com/wsapi/Authentication/
+Package: https://hdtest4.roamdata.com/wsapi/Packages
+Organization: https://hdtest4.roamdata.com/wsapi/Organizations
+ID:hdapiAdmin
+Pswd:12345
+API Token: ECM6-0ecf3d24-ac5d-42e5-8327-2268492ce1c3
+----------------------------------------------------------------
+SNOW:
+===================
+contextPath : /api/now/table/u_inbound_events?sysparm_display_value=true&sysparm_exclude_reference_link=false&sysparm_input_display_value=false&sysparm_suppress_auto_sys_field=false
+ServiceIp : homedepotqa.service-now.com
+
+
+
+
+
+285c5e608f1e0c20bc625d4a069f21e7
+
+javascript:meetingInfo('88391700319352742', 0, 1520025422000)
